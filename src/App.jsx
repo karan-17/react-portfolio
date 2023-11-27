@@ -1,8 +1,7 @@
 import "./App.css";
 import Contact from "./Components/contact/Contact";
 import Cursor from "./Components/cursor/Cursor";
-
-import Navbar from "./Components/navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Parallax from "./Components/parallax/Parallax";
 import Portfolio from "./Components/portfolio/Portfolio";
 import Services from "./Components/services/Services";
