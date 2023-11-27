@@ -1,11 +1,11 @@
 import "./App.css";
-import Contact from "./components/contact/Contact";
-import Cursor from "./components/cursor/Cursor";
+import Contact from "./Components/contact/Contact";
+import Cursor from "./Components/cursor/Cursor";
 
-import Navbar from "./components/navbar/Navbar";
-import Parallax from "./components/parallax/Parallax";
-import Portfolio from "./components/portfolio/Portfolio";
-import Services from "./components/services/Services";
+import Navbar from "./Components/navbar/Navbar";
+import Parallax from "./Components/parallax/Parallax";
+import Portfolio from "./Components/portfolio/Portfolio";
+import Services from "./Components/services/Services";
 import Hero from "./Components/hero/Hero";
 
 
