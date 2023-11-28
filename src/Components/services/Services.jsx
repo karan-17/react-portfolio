@@ -53,7 +53,8 @@ const Services = () => {
           <h1>
             <motion.b whileHover={{ color: "orange" }}>Functionality</motion.b> in Codes.
           </h1>
-          <button>My Skillset👇🏻</button>
+
+          <motion.button whileHover={{ fontWeight: "bold" }}>My Skillset👇🏻</motion.button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -63,7 +64,7 @@ const Services = () => {
         >
           <h2>Frontend</h2>
           {/* <p> */}
-          <motion.ul >
+          <motion.ul>
             <motion.li><img src="/flutter.png" alt="" height={30} /> <span>Flutter</span></motion.li>
             <motion.li><img src="/react.png" alt="" height={30} /> <span>React</span></motion.li>
             <motion.li><img src="js.png" alt="" height={30} /> <span >JavaScript</span></motion.li>
@@ -83,8 +84,8 @@ const Services = () => {
             <motion.li><img src="/c++.png" alt="" height={30} /> <span>C++</span></motion.li>
             <motion.li><img src="/js.png" alt="" height={30} /> <span>JavaScript</span></motion.li>
             <motion.li><img src="dart.png" alt="" height={30} /> <span >Dart</span></motion.li>
-            <motion.li><img src="python.png" alt="" height={30} /> <span >Python</span></motion.li>
-            <motion.li><img src="java.png" alt="" height={30} /> <span >Java</span></motion.li>
+            {/* <motion.li><img src="python.png" alt="" height={30} /> <span >Python</span></motion.li>
+            <motion.li><img src="java.png" alt="" height={30} /> <span >Java</span></motion.li> */}
           </motion.ul>
           {/* </p> */}
           {/* <button>Go</button> */}
@@ -113,7 +114,7 @@ const Services = () => {
           <motion.ul >
             <motion.li><img src="/django.png" alt="" height={20} /> <span>Django</span></motion.li>
             <motion.li><img src="/node.png" alt="" height={20} /> <span>NodeJs</span></motion.li>
-            <motion.li><img src="dart.png" alt="" height={20} /> <span >Dart</span></motion.li>
+            {/* <motion.li><img src="dart.png" alt="" height={20} /> <span >Dart</span></motion.li> */}
           </motion.ul>
           {/* </p> */}
           {/* <button>Go</button> */}

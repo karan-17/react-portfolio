@@ -34,6 +34,11 @@ section {
   flex-direction: column;
   justify-content: space-between;
 }
+@media (max-width: 738px) {
+  .services {
+    height: 100vh;
+  }
+}
 .services .textContainer {
   flex: 1;
   align-self: flex-end;
@@ -43,6 +48,7 @@ section {
 }
 @media (max-width: 738px) {
   .services .textContainer {
+    margin: 0 10px;
     align-self: center;
     text-align: center;
     flex-direction: column;
@@ -73,6 +79,7 @@ section {
 @media (max-width: 738px) {
   .services .titleContainer {
     width: 100%;
+    padding: 10px;
   }
 }
 .services .titleContainer .title {
@@ -115,7 +122,6 @@ section {
   background-color: orange;
   border: none;
   font-size: 24px;
-  cursor: pointer;
 }
 @media (max-width: 738px) {
   .services .titleContainer .title button {
@@ -132,29 +138,38 @@ section {
 }
 @media (max-width: 738px) {
   .services .listContainer {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-x: auto;
   }
 }
 .services .listContainer .box {
   padding: 50px;
   border: 0.5px solid gray;
   display: flex;
-  flex-direction: column;
-  justify-content: start;
+  flex-direction: row;
+  justify-content: space-between;
   width: 20vw;
 }
 @media (max-width: 738px) {
   .services .listContainer .box {
+    width: 100%;
     border: none;
     align-items: center;
+    flex-direction: column;
     gap: 20px;
     padding: 10px;
+    margin: 10px;
   }
 }
 @media (max-width: 738px) {
-  .services .listContainer .box p {
-    display: none;
+  .services .listContainer .box ul {
+    display: flex;
+    flex-direction: column;
   }
 }
 .services .listContainer .box button {

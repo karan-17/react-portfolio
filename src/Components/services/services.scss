@@ -6,6 +6,10 @@
   flex-direction: column;
   justify-content: space-between;
 
+  @include mobile {
+    height: calc(100vh);
+  }
+
   .textContainer {
     flex: 1;
     align-self: flex-end;
@@ -14,6 +18,7 @@
     gap: 20px;
 
     @include mobile {
+      margin: 0 10px ;
       align-self: center;
       text-align: center;
       flex-direction: column;
@@ -44,6 +49,7 @@
 
     @include mobile {
       width: 100%;
+      padding: 10px;
     }
 
     .title {
@@ -85,7 +91,7 @@
         background-color: orange;
         border: none;
         font-size: 24px;
-        cursor: pointer;
+        // cursor: pointer;
 
         @include mobile {
           font-size: 16px;
@@ -102,32 +108,47 @@
     margin: auto;
 
     @include mobile {
-      flex-direction: column;
+      display: flex;
+      flex-direction: row;
       width: 100%;
+      padding: 10px;
+      // margin: 20px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      overflow-x: auto;
     }
 
     .box {
       padding: 50px;
       border: 0.5px solid gray;
       display: flex;
-      flex-direction: column;
-      justify-content: start;
+      flex-direction: row;
+      justify-content: space-between;
       width: 20vw;
       
-      
-
       @include mobile {
+        width: 100%;
         border: none;
         align-items: center;
+        flex-direction: column;
         gap: 20px;
         padding: 10px;
+        margin: 10px;
+      }
+      ul{
+        @include mobile{
+          display: flex;
+          flex-direction: column;
+          // justify-content: start;
+        }
+        
       }
 
-      p {
-        @include mobile {
-          display: none;
-        }
-      }
+      // p {
+      //   @include mobile {
+      //     display: none;
+      //   }
+      // }
 
       button {
         padding: 10px;
