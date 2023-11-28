@@ -84,6 +84,13 @@ section {
   margin: auto;
   z-index: -1;
 }
+@media (max-width: 738px) {
+  .contact .formContainer .phoneSvg svg {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  }
+}
 .contact .formContainer form {
   display: flex;
   flex-direction: column;
