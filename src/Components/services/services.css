@@ -151,8 +151,8 @@ section {
   padding: 50px;
   border: 0.5px solid gray;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: start;
   width: 20vw;
 }
 @media (max-width: 738px) {
