@@ -91,7 +91,7 @@ const Hero = () => {
         <img src="/github.png" alt="" height={100} /> <span>GitHub</span>
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero2.png" alt="" />
+        {/* <img src="/hero2.png" alt="" /> */}
       </div>
     </div>
   );
